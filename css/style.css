@@ -1,0 +1,28 @@
+body {
+  padding: 10px;
+  background-color: #222;
+}
+
+#camera1 {
+  background-image: url('http://10.59.68.11:5800/?action=stream');
+  background-color: #123; /*blue*/
+  visibility:visible;
+}
+
+#camera2 {
+  background-image: url('http://10.59.68.11:5801/?action=stream');
+  background-color: #132; /*green*/
+  visibility:hidden;
+}
+
+.camera {
+  padding: 0;
+  position: absolute;
+  top:0px;
+  left:0px;
+  width: 816px;
+  height: 612px;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-size: 816px 612px;
+}
